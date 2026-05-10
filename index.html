@@ -13,7 +13,19 @@
 <body>
   <header class="site-header">
     <a class="brand" href="#top" aria-label="LaunchPage Express home">
-      <span class="brand-mark">⚡</span>
+      <span class="brand-mark" aria-hidden="true">
+        <svg viewBox="0 0 48 48" role="img" focusable="false">
+          <defs>
+            <linearGradient id="logoGradient" x1="8" y1="6" x2="42" y2="44" gradientUnits="userSpaceOnUse">
+              <stop stop-color="#78f3c4" />
+              <stop offset="1" stop-color="#7aa7ff" />
+            </linearGradient>
+          </defs>
+          <path d="M13 35V13h7v16h15v6H13Z" fill="url(#logoGradient)"/>
+          <path d="M24 25 36 10h-8l-9 13 5 2Z" fill="#f8fafc" opacity=".94"/>
+          <circle cx="36" cy="35" r="3" fill="#78f3c4"/>
+        </svg>
+      </span>
       <span>LaunchPage Express</span>
     </a>
     <nav aria-label="Primary navigation">
